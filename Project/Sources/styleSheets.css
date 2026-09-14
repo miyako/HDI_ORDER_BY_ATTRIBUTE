@@ -8,6 +8,11 @@
 	stroke: automatic;
 }
 
+.hdi-list {
+	fill: automatic;
+	stroke: automatic;
+}
+
 @media (prefers-color-scheme: light) {
 	.hdi-alert {
 		stroke: #FF4D00;

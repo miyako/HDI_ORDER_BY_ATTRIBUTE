@@ -127,8 +127,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -164,8 +162,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -201,8 +197,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -238,8 +232,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -275,8 +267,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -312,8 +302,6 @@
 							"width": 244,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -342,7 +330,8 @@
 							"truncateMode": "none"
 						}
 					],
-					"alternateFill": "automaticAlternate"
+					"alternateFill": "automaticAlternate",
+					"class": "hdi-list"
 				},
 				"Variable1": {
 					"type": "input",
