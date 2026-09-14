@@ -3,6 +3,8 @@
 ARRAY TEXT:C222(TabControl; 0)
 ARRAY TEXT:C222(TextTabControl; 0)
 
+var $json : Collection
+
 If (Get database localization:C1009(Current localization:K5:22)="ja")
 	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("Table_Init-ja.json").getText(); Is collection:K8:32)
 Else 
@@ -22,7 +24,7 @@ TabControl:=0
 textInfo:=TextTabControl{1}
 textExample:=TextTabControl{2}
 
-C_LONGINT:C283($platform)
+var $platform : Integer
 _O_PLATFORM PROPERTIES:C365($platform)
 
 If ($platform=Windows:K25:3)

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Name" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="City" resname="City">
+        <source>City</source>
+        <target>City</target>
+      </trans-unit>
+      <trans-unit id="Phone" resname="Phone">
+        <source>Phone</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="Company" resname="Company">
+        <source>Company</source>
+        <target>Company</target>
+      </trans-unit>
+      <trans-unit id="Age" resname="Age">
+        <source>Age</source>
+        <target>Age</target>
+      </trans-unit>
+      <trans-unit id="Address" resname="Address">
+        <source>Address</source>
+        <target>Address</target>
+      </trans-unit>
+      <trans-unit id="-->" resname="-->">
+        <source>--&gt;</source>
+        <target>--&gt;</target>
+      </trans-unit>
+      <trans-unit id="The current object stringified:" resname="The current object stringified:">
+        <source>The current object stringified:</source>
+        <target>The current object stringified:</target>
+      </trans-unit>
+      <trans-unit id="The Object field selection list box:" resname="The Object field selection list box:">
+        <source>The Object field selection list box:</source>
+        <target>The Object field selection list box:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
