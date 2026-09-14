@@ -2,7 +2,7 @@
 
 Case of 
 	: (Form event code:C388=On Header Click:K2:40)
-		C_TEXT:C284($title)
+		var $title : Text
 		// reset the popup drop down to the 0 element
 		_arrDistinctPath:=0
 		

@@ -1,0 +1,21 @@
+/* Cross-platform dark mode rules. Automatic color values (`automatic` /
+   `automaticAlternate`) already adapt most objects; this file only needs
+   to define classes for objects that require an explicit stroke or a
+   semantic (non-default) color that must still adapt between light and
+   dark appearance. */
+
+.HDI {
+	stroke: automatic;
+}
+
+@media (prefers-color-scheme: light) {
+	.hdi-alert {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-alert {
+		stroke: #FF7A40;
+	}
+}

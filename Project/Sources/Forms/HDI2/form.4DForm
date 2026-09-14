@@ -70,15 +70,15 @@
 					"top": 553,
 					"left": 680,
 					"width": 91,
-					"height": 22,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "-->",
+					"text": ":xliff:-->",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Picture8": {
 					"type": "picture",
@@ -129,7 +129,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -154,8 +153,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column11",
@@ -165,7 +166,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -190,8 +190,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column12",
@@ -201,7 +203,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -226,8 +227,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -237,7 +240,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -262,8 +264,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column1",
@@ -273,7 +277,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -298,8 +301,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -309,7 +314,6 @@
 							"maxWidth": 32000,
 							"stroke": "automatic",
 							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -332,10 +336,13 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"alternateFill": "automaticAlternate"
 				},
 				"Variable1": {
 					"type": "input",
@@ -381,7 +388,8 @@
 					"width": 243,
 					"height": 17,
 					"sizingY": "move",
-					"text": ":xliff:The current object stringified:"
+					"text": ":xliff:The current object stringified:",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -389,7 +397,8 @@
 					"left": 51,
 					"width": 283,
 					"height": 17,
-					"text": ":xliff:The Object field selection list box:"
+					"text": ":xliff:The Object field selection list box:",
+					"stroke": "automatic"
 				},
 				"Popup Dropdown List": {
 					"type": "dropdown",
