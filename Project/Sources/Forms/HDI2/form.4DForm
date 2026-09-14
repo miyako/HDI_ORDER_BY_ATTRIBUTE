@@ -78,12 +78,13 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 573
 				},
 				"Picture8": {
 					"type": "picture",
 					"top": 372,
-					"left": 356,
+					"left": 316,
 					"width": 175,
 					"height": 239,
 					"sizingX": "move",
@@ -106,7 +107,7 @@
 					"resizingMode": "legacy",
 					"listboxType": "currentSelection",
 					"dataSource": "contactsList",
-					"focusable": false,
+					"focusable": true,
 					"sortable": false,
 					"movableRows": false,
 					"staticColumnCount": 6,
@@ -120,6 +121,9 @@
 						"onSelectionChange",
 						"onHeaderClick"
 					],
+					"alternateFill": "automaticAlternate",
+					"class": "hdi-list",
+					"hideFocusRing": true,
 					"columns": [
 						{
 							"name": "Column10",
@@ -329,9 +333,7 @@
 							},
 							"truncateMode": "none"
 						}
-					],
-					"alternateFill": "automaticAlternate",
-					"class": "hdi-list"
+					]
 				},
 				"Variable1": {
 					"type": "input",
@@ -405,5 +407,10 @@
 			}
 		},
 		null
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 2
 }
