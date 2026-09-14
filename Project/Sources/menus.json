@@ -33,7 +33,6 @@
 				},
 				{
 					"title": ":xliff:CommonMenuItemQuit",
-					"method": "m_Quit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q",
 					"action": "quit"

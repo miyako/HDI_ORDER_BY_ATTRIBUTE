@@ -70,20 +70,21 @@
 					"top": 553,
 					"left": 680,
 					"width": 91,
-					"height": 22,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "-->",
+					"text": ":xliff:-->",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default",
+					"bottom": 573
 				},
 				"Picture8": {
 					"type": "picture",
 					"top": 372,
-					"left": 356,
+					"left": 316,
 					"width": 175,
 					"height": 239,
 					"sizingX": "move",
@@ -106,7 +107,7 @@
 					"resizingMode": "legacy",
 					"listboxType": "currentSelection",
 					"dataSource": "contactsList",
-					"focusable": false,
+					"focusable": true,
 					"sortable": false,
 					"movableRows": false,
 					"staticColumnCount": 6,
@@ -120,6 +121,9 @@
 						"onSelectionChange",
 						"onHeaderClick"
 					],
+					"alternateFill": "automaticAlternate",
+					"class": "hdi-list",
+					"hideFocusRing": true,
 					"columns": [
 						{
 							"name": "Column10",
@@ -127,9 +131,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -154,8 +155,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column11",
@@ -163,9 +166,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -190,8 +190,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column12",
@@ -199,9 +201,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -226,8 +225,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -235,9 +236,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -262,8 +260,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column1",
@@ -271,9 +271,6 @@
 							"width": 100,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -298,8 +295,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -307,9 +306,6 @@
 							"width": 244,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -332,8 +328,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -381,7 +379,8 @@
 					"width": 243,
 					"height": 17,
 					"sizingY": "move",
-					"text": ":xliff:The current object stringified:"
+					"text": ":xliff:The current object stringified:",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -389,7 +388,8 @@
 					"left": 51,
 					"width": 283,
 					"height": 17,
-					"text": ":xliff:The Object field selection list box:"
+					"text": ":xliff:The Object field selection list box:",
+					"stroke": "automatic"
 				},
 				"Popup Dropdown List": {
 					"type": "dropdown",
@@ -407,5 +407,10 @@
 			}
 		},
 		null
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 2
 }

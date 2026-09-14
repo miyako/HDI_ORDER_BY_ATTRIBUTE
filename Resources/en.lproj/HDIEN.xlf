@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="How Do I..." resname="How Do I...">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="... sort my object field selection for accessing more accurate information easily?" resname="... sort my object field selection for accessing more accurate information easily?">
+        <source>... sort my object field selection for accessing more accurate information easily?</source>
+        <target>... sort my object field selection for accessing more accurate information easily?</target>
+      </trans-unit>
+      <trans-unit id="(4D v16 and above...)" resname="(4D v16 and above...)">
+        <source>(4D v16R2 and above...)</source>
+        <target>(4D v16R2 and above...)</target>
+      </trans-unit>
+      <trans-unit id="Demo" resname="Demo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="Sorry" resname="Sorry">
+        <source>Sorry</source>
+        <target>Sorry</target>
+      </trans-unit>
+      <trans-unit id="Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality." resname="Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+      </trans-unit>
+      <trans-unit id="The plugin xxx is mandatory" resname="The plugin xxx is mandatory">
+        <source>The plugin xxx is mandatory</source>
+        <target>The plugin xxx is mandatory</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
