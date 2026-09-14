@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_OrderByAttribute" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="CONTACTS_2" uuid="7AF11397AA7F4E4DB8665309CE51D998" id="8">
+		<field name="ID" uuid="37F3A409B6FE4BFD83F71B5C81D646E2" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Info" uuid="968BE599CF3F4DFD838DF8C64473A44C" type="21" never_null="true" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<primary_key field_name="ID" field_uuid="37F3A409B6FE4BFD83F71B5C81D646E2"/>
+		<table_extra input_form="Input" output_form="Form1"/>
+	</table>
+	<table name="Table_Init" uuid="C00F72B470E64BB6975BEBEBC5BB376C" id="12">
+		<field name="ID" uuid="DCD1978E244644A6AEEC3704C6CD6428" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="DC62BCE5B12946479E43B5C0285FD425" type="10" never_null="true" id="2"/>
+		<field name="Text" uuid="F9E14E0D4A2B47AEB8F0710FCCED53FD" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="8A489F61379248FDB4EBA8F4F7AB42A2" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="DCD1978E244644A6AEEC3704C6CD6428"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="4BC6A0DB18B44AE69672D84937C6B65F" type="7">
+		<field_ref uuid="DCD1978E244644A6AEEC3704C6CD6428" name="ID">
+			<table_ref uuid="C00F72B470E64BB6975BEBEBC5BB376C" name="Table_Init"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="7199BDB6371040FB90F2718836D506A3" type="1">
+		<field_ref uuid="37F3A409B6FE4BFD83F71B5C81D646E2" name="ID">
+			<table_ref uuid="7AF11397AA7F4E4DB8665309CE51D998" name="CONTACTS_2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8599B6EA19E4433B99F62ED3BD32763A" type="3">
+		<field_ref uuid="968BE599CF3F4DFD838DF8C64473A44C" name="Info">
+			<table_ref uuid="7AF11397AA7F4E4DB8665309CE51D998" name="CONTACTS_2"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":OrderByAttribute.4DD" package_name="HDI_OrderByAttribute" structure_file_name="OrderByAttribute">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

@@ -1,0 +1,44 @@
+{
+	"tables": {
+		"Table_Init": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "168.0703125",
+				"top": "0",
+				"width": "117",
+				"height": "125.33203125"
+			},
+			"displayable_fields_count": 4
+		},
+		"CONTACTS_2": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "0",
+				"top": "0",
+				"width": "112",
+				"height": "83.33203125"
+			},
+			"displayable_fields_count": 2,
+			"fields": {
+				"Info": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				}
+			}
+		}
+	}
+}
